@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AtomSpace</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background: url("3db1994c36fa3f55d4d0d7707da6002d.png") no-repeat center
+          center fixed;
+        background-size: cover;
+      }
+      .navbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1em;
+        background-color: rgba(0, 0, 0, 0.5);
+      }
+      .nav-item {
+        list-style: none;
+        display: inline;
+        margin: 0 15px;
+      }
+
+      a {
+        text-decoration: none;
+        color: white;
+      }
+      .menu-icon {
+        display: none;
+      }
+      .hero {
+        text-align: center;
+        color: white;
+        padding: 100px 20px;
+      }
+      .hero-title {
+        font-size: 5em;
+        font-weight: bold;
+      }
+      .hero-subtitle {
+        font-size: 1.2em;
+        margin-bottom: 2em;
+      }
+      .button {
+        padding: 1em 2em;
+        margin: 0 1em;
+        border: none;
+        background-color: white;
+        color: black;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      .button:hover {
+        background-color: #f8f8f8;
+      }
+      @media (max-width: 768px) {
+        .menu-icon {
+          display: inline-block;
+        }
+        .nav-item {
+          display: none;
+        }
+        .navbar {
+          justify-content: space-between;
+        }
+      }
+      .cta-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #000000;
+        padding: 40px 0;
+      }
+
+      .cta-content {
+        display: flex;
+        align-items: center;
+        color: #ffffff;
+        text-align: left;
+      }
+
+      .cta-content h2 {
+        margin-left: 20px;
+      }
+
+      .cta-text p {
+        margin: 0;
+        padding: 20px;
+        margin-right: auto;
+      }
+
+      .join-now-btn {
+        padding: 10px 20px;
+        background-color: #ff6a00;
+        color: #ffffff;
+        border: none;
+        cursor: pointer;
+        font-size: 1em;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+      }
+
+      .join-now-btn:hover {
+        background-color: #e55d00;
+      }
+      footer {
+        background-color: #000000;
+        color: #ffffff;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .partner-logos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+
+      .partner-logos .logo {
+        max-width: 200px;
+        height: auto;
+        margin: 10px 10px;
+      }
+
+      .contact-section h2 {
+        font-size: 2em;
+        margin-bottom: 10px;
+      }
+
+      .contact-section p {
+        margin-bottom: 20px;
+      }
+
+      .social-media a {
+        color: #ffffff;
+        margin: 0 0px;
+        font-size: 1.5em;
+        text-decoration: none;
+      }
+
+      .social-media a i {
+        margin-right: 8px;
+      }
+
+      .stealth-mode {
+        font-style: italic;
+        margin-top: 20px;
+      }
+
+      button {
+        padding: 10px 20px;
+        background-color: #ff6a00;
+        color: #ffffff;
+        border: none;
+        cursor: pointer;
+        font-size: 1em;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+      }
+
+      button:hover {
+        background-color: #e55d00;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <span class="menu-icon">☰</span>
+        <div><a href="#" class="nav-brand">☰</a></div>
+        <ul>
+          <li class="nav-item"><a href="#">Home</a></li>
+          <li class="nav-item"><a href="#">Collections</a></li>
+          <li class="nav-item"><a href="#">Blog</a></li>
+          <li class="nav-item"><a href="#">About us</a></li>
+          <li class="nav-item"><a href="#">Join now</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <h1 class="hero-title">AtomSpace</h1>
+        <p class="hero-subtitle">
+          Lorem ipsum dolor sit amet consectetur. Et arcu habitasse dignissim
+          turpis faucibus mi sagittis duis tortor. Aliquam adipiscing nam tellus
+          sem sem lorem.
+        </p>
+        <button class="button">Join now</button>
+        <button class="button">Join now</button>
+      </section>
+      <section class="cta-section">
+        <div class="cta-content">
+          <div class="cta-text">
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Et<br />
+              arcu habitasse dignissim turpis faucibus mi<br />
+              sagittis duis tortor. Aliquam adipiscing nam tellus sem sem lorem.
+            </p>
+
+            <button class="join-now-btn">Join now</button>
+          </div>
+          <div class="cta-text">
+            <h2>
+              Lorem ipsum dolor sit amet consectetur. Et<br />
+              arcu habitasse dignissim turpis faucibus mi<br />
+              sagittis duis tortor.
+            </h2>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="partner-logos">
+          <img
+            src="7383ee99b20fe80081cb6b365d2177a8.png"
+            alt="Purdue University"
+            class="logo"
+          />
+          <img
+            src="3e8205af96a9ab98ac185052f167309e.png"
+            alt="Berkeley"
+            class="logo"
+          />
+          <img src="3.png" alt="Berkeley" class="logo" />
+          <img src="4.png" alt="Berkeley" class="logo" />
+          <img src="5.png" alt="Berkeley" class="logo" />
+        </div>
+        <div class="contact-section">
+          <h2>Contact us</h2>
+          <p>
+            Ready for a space adventure like no other? Join Atom <br />Space,
+            where your work can revolutionize the entire<br />
+            industry. Click below – destiny beckons.
+          </p>
+          <button>Fill the form</button>
+        </div>
+        <img src="6.png" alt="#" class="logo" />
+      </footer>
+    </main>
+  </body>
+</html>
